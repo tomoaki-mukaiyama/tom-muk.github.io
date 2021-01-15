@@ -1,0 +1,207 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+    
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+
+header{
+  height:65px;
+  width :100%;
+  background-color: rgba(34,49,52,0.9);
+  position:fixed;
+  z-index: 5;
+}
+
+.header-container{
+  margin: 0 auto;
+  width:1170px;
+
+}
+
+.header-container img{
+  width :124px;
+  margin-top:20px;
+}
+
+.login-btn{
+  float:right;
+  color: white;
+  line-height:65px;
+  background-color:rgba(255,255,255,0.3);
+  padding:0px 25px;
+}
+
+.login-btn:hover{
+  background-color:rgba(255,255,255,0.6);
+  transition: all 1s;
+}
+
+.top-wrapper{
+  background-image:url(https://prog-8.com/images/html/advanced/top.png);
+  background-size:cover;
+}
+
+.top-message{
+   width:1170px;
+  margin: 0 auto;
+  text-align:center;
+  color:white;
+  padding: 180px 0px 100px 0px;
+}
+
+.top-message h1{
+   opacity :0.7;
+   font-size: 45px;
+   font-weight:bold;
+   letter-spacing: 5px;
+}
+
+.top-message p{
+   opacity :0.7;
+}
+
+.btn{
+  color:white;
+   opacity :0.8;
+   display: inline-block;
+   padding: 8px 24px 8px 22px;
+   border-radius:8px;
+}
+
+.btn:hover{
+  opacity: 1;
+  
+}
+
+.signup{
+ background-color:#239b76;
+ margin-top: 30px;
+ margin-bottom:15px;
+ }
+
+.faceb{
+ background-color: #3b5998;  
+ margin-top:15px;
+ margin-right:10px;
+}
+
+.twitt{
+   background-color:#55acee;
+}
+
+.fa{
+  margin-right: 9px;
+}
+
+.main-content{
+height: 580px;
+background-color: #f7f7f7;
+text-align: center;
+}
+
+.heading{
+  padding:80px 0px 50px 0px;
+}
+
+.heading h2{
+  color: #5f5d60;
+  text-align: center;
+  font-weight: normal;
+}
+
+.content-wrapper{
+  width:1170px;
+  margin:0 auto;
+}
+
+
+.content{
+  float: left;
+  width:25%;
+}
+
+.content-icon{
+  position: relative;
+}
+
+.title{
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.c-define{
+  font-size : 13px;
+  color:#b3aeb5;
+  margin-top:10px;
+  display:inline-block;
+  width:80%;
+}
+
+.message-container{
+  text-align:center;
+  padding-top:80px 0px 80px 0px;
+  margin-bottom:80px;
+}
+
+.msg{
+  color: #5f5d60;
+  text-align: center;
+  font-weight: normal;
+  
+}
+
+
+.btn-msg{
+  color:white;
+  background-color: #5dca88;
+  opacity: 0.8;
+  padding:15px 40px ;
+  border-radius: 4px;
+  box-shadow: 0px 7px #1a7940;
+  cursor:pointer;
+  
+}
+
+
+
+.btn-msg:active{
+  box-shadow:none;
+  position:relative;
+  top:7px;
+}
+
+.footer-wrapper{
+  padding:30px 0px;
+  border-top:solid 1px #eee;
+  width: 1170px;
+  margin:0 auto;
+}
+
+
+.footer-logo img{
+  width:124px;
+}
+
+.footer-message{
+  font-size: 12px;
+  color: #b3aeb5;
+}
